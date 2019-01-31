@@ -20,15 +20,15 @@ Keras Model (https://drive.google.com/file/d/1AHVpuB24lKAqNyRRjhX7ABlEor6ByZlS/v
 ### Note:
 This model is trained with a slightly different tight crops, but I have also tested on the tight crops (as we did in the paper), and am able to get similar results (on IJBB).
 
-TAR @ FAR = 1e-05 : 0.64 
+TAR @ FAR = 1e-5 : 0.64 
 
-TAR @ FAR = 0.0001 : 0.78 
+TAR @ FAR = 1e-4 : 0.78 
 
-TAR @ FAR = 0.001 : 0.88 
+TAR @ FAR = 1e-3 : 0.88 
 
-TAR @ FAR = 0.01 : 0.94 
+TAR @ FAR = 1e-2 : 0.94 
 
-TAR @ FAR = 0.1 : 0.98
+TAR @ FAR = 1e-1 : 0.98
 
 ### Testing the model
 To test a specific model on the IJB dataset, 
