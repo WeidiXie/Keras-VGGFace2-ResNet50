@@ -3,6 +3,8 @@
 This repo contains a Keras implementation of the paper,     
 [VGGFace2: A dataset for recognising faces across pose and age (Cao et al., FG 2018)](https://arxiv.org/abs/1710.08092).
 
+[Multicolumn Networks for Face Recognition (Xie and Zisserman, BMVC2018)](https://arxiv.org/abs/1807.09192)
+
 ### Dependencies
 - [Python 2.7.15](https://www.continuum.io/downloads)
 - [Keras 2.2.4](https://keras.io/)
@@ -20,7 +22,15 @@ Keras Model (https://drive.google.com/file/d/1AHVpuB24lKAqNyRRjhX7ABlEor6ByZlS/v
 ### Note:
 This model is trained with a slightly different tight crops, but I have also tested on the tight crops (as we did in the paper), and am able to get similar results (on IJBB).
 
-| TAR @ FAR = 1e-05 : 0.64 | TAR @ FAR = 0.0001 : 0.78 | TAR @ FAR = 0.001 : 0.88 | TAR @ FAR = 0.01 : 0.94 | TAR @ FAR = 0.1 : 0.98 |
+TAR @ FAR = 1e-5 : 0.64 
+
+TAR @ FAR = 1e-4 : 0.78 
+
+TAR @ FAR = 1e-3 : 0.88 
+
+TAR @ FAR = 1e-2 : 0.94 
+
+TAR @ FAR = 1e-1 : 0.98
 
 ### Testing the model
 To test a specific model on the IJB dataset, 
@@ -34,6 +44,12 @@ for example, the model trained with ResNet50 trained by sgd with softmax, and fe
   author       = "Q. Cao, L. Shen, W. Xie, O. M. Parkhi, A. Zisserman ",
   title        = "VGGFace2: A dataset for recognising face across pose and age",
   booktitle    = "International Conference on Automatic Face and Gesture Recognition, 2018.",
+  year         = "2018",
+}
+@InProceedings{Xie18,
+  author       = "W. Xie, A. Zisserman ",
+  title        = "Multicolumn Networks for Face Recognition",
+  booktitle    = "British Machine Vision Conference, 2018.",
   year         = "2018",
 }
 ```

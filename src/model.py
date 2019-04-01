@@ -1,6 +1,5 @@
 import keras
 import resnet
-import new_layers
 import keras.backend as K
 
 global weight_decay
