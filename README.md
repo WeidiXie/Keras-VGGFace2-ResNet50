@@ -4,8 +4,6 @@ This repo contains a Keras implementation of the paper,
 
 [VGGFace2: A dataset for recognising faces across pose and age (Cao et al., FG 2018)](https://arxiv.org/abs/1710.08092).
 
-#[Multicolumn Networks for Face Recognition (Xie and Zisserman, BMVC2018)](https://arxiv.org/abs/1807.09192)
-
 ### Dependencies
 - [Python 2.7.15](https://www.continuum.io/downloads)
 - [Keras 2.2.4](https://keras.io/)
@@ -45,12 +43,6 @@ for example, the model trained with ResNet50 trained by sgd with softmax, and fe
   author       = "Q. Cao, L. Shen, W. Xie, O. M. Parkhi, A. Zisserman ",
   title        = "VGGFace2: A dataset for recognising face across pose and age",
   booktitle    = "International Conference on Automatic Face and Gesture Recognition, 2018.",
-  year         = "2018",
-}
-@InProceedings{Xie18,
-  author       = "W. Xie, A. Zisserman ",
-  title        = "Multicolumn Networks for Face Recognition",
-  booktitle    = "British Machine Vision Conference, 2018.",
   year         = "2018",
 }
 ```
