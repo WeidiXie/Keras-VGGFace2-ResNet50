@@ -4,7 +4,7 @@ This repo contains a Keras implementation of the paper,
 
 [VGGFace2: A dataset for recognising faces across pose and age (Cao et al., FG 2018)](https://arxiv.org/abs/1710.08092).
 
-[Multicolumn Networks for Face Recognition (Xie and Zisserman, BMVC2018)](https://arxiv.org/abs/1807.09192)
+#[Multicolumn Networks for Face Recognition (Xie and Zisserman, BMVC2018)](https://arxiv.org/abs/1807.09192)
 
 ### Dependencies
 - [Python 2.7.15](https://www.continuum.io/downloads)
