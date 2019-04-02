@@ -1,4 +1,4 @@
-# Janus Extension #
+# VGGFace2 Extension #
 
 This repo contains a Keras implementation of the paper,     
 [VGGFace2: A dataset for recognising faces across pose and age (Cao et al., FG 2018)](https://arxiv.org/abs/1710.08092).
