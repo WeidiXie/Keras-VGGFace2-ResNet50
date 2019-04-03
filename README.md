@@ -35,7 +35,7 @@ TAR @ FAR = 1e-1 : 0.98
 To test a specific model on the IJB dataset, 
 for example, the model trained with ResNet50 trained by sgd with softmax, and feature dimension 512
 
-- python src/predict.py --net resnet50 --batch_size 64 --gpu 2 --loss softmax --aggregation avg --resume ../model/resnet50_softmax_dim512/weights.h5 --feature_dim 512
+- python predict.py --net resnet50 --batch_size 64 --gpu 2 --loss softmax --aggregation avg --resume ../model/resnet50_softmax_dim512/weights.h5 --feature_dim 512
 
 ### Citation
 ```
