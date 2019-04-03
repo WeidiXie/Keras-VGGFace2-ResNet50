@@ -113,7 +113,7 @@ def image_encoding(model, facepaths):
     imgchunks = list(chunks(imgpaths, args.batch_size))
 
     for c, imgs in enumerate(imgchunks):
-        im_array = np.array([ut.load_data(path=i, shape=(224, 224, 3), mode='eval', augmentation=False) for i in imgs])
+        im_array = np.array([ut.load_data(path=i, shape=(224, 224, 3), mode='eval') for i in imgs])
         f = model.predict(im_array, batch_size=args.batch_size)
         start = c * args.batch_size
         end = min((c + 1) * args.batch_size, num_faces)
