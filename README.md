@@ -21,6 +21,9 @@ Keras Model (https://drive.google.com/file/d/1AHVpuB24lKAqNyRRjhX7ABlEor6ByZlS/v
 ### Note:
 This model is trained with a slightly different tight crops, but I have also tested on the tight crops (as we did in the paper), and am able to get similar results (on IJBB).
 
+
+| Architecture   | Feat dim | Pretrain | TAR@FAR = 0.001 | TAR@FAR = 0.01 | Model Link |
+
 TAR @ FAR = 1e-5 : 0.64 
 
 TAR @ FAR = 1e-4 : 0.78 
