@@ -19,7 +19,7 @@ The dataset used for the experiments are
 Keras Model (https://drive.google.com/file/d/1AHVpuB24lKAqNyRRjhX7ABlEor6ByZlS/view?usp=sharing),
 
 ### Note:
-This model is trained with a slightly different tight crops, but I have also tested on the tight crops (as we did in the paper), and am able to get similar or better results (on both IJBB and IJBC).
+This model is trained with a slightly different tight crops, but I have also tested on the tight crops (as we did in the paper), and am able to get similar results (on both IJBB and IJBC).
 
 
 | Dataset   | Feat dim | Pretrain | TAR@FAR = 1e-5 | TAR@FAR = 1e-4 | TAR@FAR = 1e-3 | TAR@FAR = 1e-2 | TAR@FAR = 1e-1 |
