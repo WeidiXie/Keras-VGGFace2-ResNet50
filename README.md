@@ -23,6 +23,7 @@ This model is trained with a slightly different tight crops, but I have also tes
 
 
 | Architecture   | Feat dim | Pretrain | TAR@FAR = 0.001 | TAR@FAR = 0.01 | Model Link |
+|:-:|:-:|:-:|:-:|:-:|:-:|
 
 TAR @ FAR = 1e-5 : 0.64 
 
